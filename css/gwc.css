@@ -1,0 +1,57 @@
+
+
+.er1{
+	background-color: #FF6500;
+	color: white;
+}
+.er2{
+	background-color: #E31939;
+	color: white;
+}
+.btn.rr:focus,
+.btn.rr:active:focus,
+.btn.rr.active:focus,
+.btn.rr.focus,
+.btn.rr:active.focus,
+.btn.rr.active.focus {
+outline: none;
+border-color: #E31939;
+box-shadow:none;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+outline: none;
+border-color:transparent;
+box-shadow:none;
+}
+#sp1{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	font-weight: bold;
+}
+ul{
+	list-style-type: none;
+}
+.bj{
+	color:#E31939 ;
+	font-weight: bold;
+	font-size: 30px;
+}
+#nn{
+	background-image: url(../img/dd.png);
+}
+.er3{
+	color: #BAAA99;
+}
+#t1{
+	padding-top: 11px;
+	float: left;
+}
+#t2{
+	float: left;
+}
+

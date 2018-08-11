@@ -1,0 +1,141 @@
+
+#block1{
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border-radius: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 30px;
+}
+.pull-left{
+	padding-top: 20px;
+}
+.glyphicon-jpy{
+	/*font-size: 10px;*/
+	 color:#17D57E;
+}
+#shuzi{
+	padding-top: 20px;
+	font-size: 30px;
+	margin-right: 40px;
+	color: white;
+	
+}
+.mainbox1{
+	margin-top: 50px;
+	height: 120px;
+	background-color: #17D57E;
+}
+.mainbox2{
+	margin-top: 50px;
+	height: 120px;
+	background-color: orange;
+}
+.mainbox3{
+	margin-top: 50px;
+	height: 120px;
+	background-color: greenyellow;
+}
+.mainbox4{
+	margin-top: 50px;
+	height: 120px;
+	background-color: mediumpurple;
+}
+#title{
+	margin-top: 80px;
+	font-size: 18px;
+	color: white;
+	margin-right: -30px;
+	
+}
+.glyphicon-list-alt{
+	color:orange;
+}
+.glyphicon-folder-close{
+	color:greenyellow ;
+}
+.glyphicon-user{
+	color:mediumpurple ;
+}
+#login1{
+	font-family: "微软雅黑";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    animation:login1 8s linear  infinite;
+}
+
+@keyframes login1{
+	12.5%{color: black;}
+	25%{color: red;}
+	37.5%{color: orange;}
+	50%{color: yellow;}
+	62.5%{color: green;}
+	75%{color: cyan;}
+	87.5%{color:blue;}
+	100%{color: purple;}
+}
+.tu{
+	text-align: center;
+	padding-top: 10px;
+}
+.mainbox5{
+	margin-top: 50px;
+	height: 180px;
+	background-color:#CDD0D5;
+	line-height: 5vh;
+}
+.hh{
+	padding-top: 20px;
+}
+.glyphicon-plane{
+	font-size: 23px;
+	color: #293C55;
+}
+.glyphicon-floppy-remove{
+	font-size: 23px;
+	color: #293C55;
+}
+
+.glyphicon-usd{
+	font-size: 23px;
+	color: #293C55;
+}
+
+.glyphicon-alert{
+	font-size: 23px;
+	color: #293C55;
+}
+
+.glyphicon-comment{
+	font-size: 23px;
+	color: #293C55;
+}
+.gh {
+	height:45px;
+	font-size: 20px;
+	padding-top: 10px;
+	border-bottom: 1px solid darkgrey;
+}
+.ff{
+	padding-top: 10px;
+	font-size: 13px;
+}
+.mainbox6{
+	margin-top: 50px;
+	height: 180px;
+	background-color:#CDD0D5;
+	line-height: 6vh;
+}
+.gh1{
+	font-size: 18px;
+	padding-top: 5px;
+	border-bottom: 1px solid darkgrey;
+	
+}
+.btn-group{
+	padding-top: 5px;
+	
+}

@@ -1,0 +1,236 @@
+body{
+	/*background-color: #171C44;*/
+	margin-left: 3%;
+}
+.logo{
+	font-family: "微软雅黑";
+	font-size: 30px;
+	color: red;
+}
+#top{
+	margin-top: 20px;
+}
+.one{
+	text-align: center;
+	font-size: 20px;
+	padding-top: 20px;
+	color: #6EA23F;
+}
+.jumbotron{
+	margin-top: -21px;
+	text-align: center;
+	height: 360px;
+	width: 100%;
+	background-repeat: no-repeat;
+	/*background-image: url(../img/jm.png);*/
+}
+
+.navbar-default{
+	background-color: #2D3447;
+}
+.dropdown-menu{
+	opacity: 0.7;
+}
+.navbar-left{
+	padding-top: 20px;
+}
+.hengfu{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	background-color: #AA242E;
+	padding-top: 12px;
+	padding-bottom: 11px;
+	margin-top: 12px;
+}
+/*.pic{
+	background-color: white;
+	margin-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}*/
+.text1{
+	font-weight: bold;
+}
+.text2{
+	color: grey;
+}
+.text3{
+	color: #E31939;
+
+}
+.text4{
+	background-color:#D31C43;
+	color: white;
+	float: right;
+	margin-top: -6px;
+}
+#dibu{
+	text-align: center;
+	margin-top: 15px;
+}
+.foot1{
+	padding-top: 15px;
+	text-align: center;
+	font-size: 20px;
+}
+.foot2{
+	text-align: center;
+	font-size: 12px;
+}
+
+#rightBox1 {
+	width: 34px;
+	height: 34px;
+	position: fixed;
+	top: 210px;
+	right: 20px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	
+}
+#rightBox2 {
+		width: 34px;
+	height: 34px;
+	position: fixed;
+	top: 245px;
+	right: 20px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	
+}
+#rightBox3 {
+		width: 34px;
+	height: 34px;
+	position: fixed;
+	top: 280px;
+	right: 20px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	
+}
+#rightBox4 {
+		width: 34px;
+	height: 34px;
+	position: fixed;
+	top: 315px;
+	right:20px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	
+}
+#rightBox5 {
+		width: 34px;
+	height: 34px;
+	position: fixed;
+	top: 350px;
+	right: 20px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	
+}
+#rightBox6 {
+	width: 34px;
+	height: 34px;
+	position: fixed;
+	bottom: 35px;
+	right: 20px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	
+}
+#rightBox7 {
+	width: 34px;
+	height: 34px;
+	position: fixed;
+	bottom:0px;
+	right: 20px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	
+}
+#gw{
+	width: 34px;
+	height: 34px;
+	border-radius: 34px;
+	background-color:#E31939;
+	float: right;
+	margin-top: -10px;
+	text-align: center;
+	padding-top: 7px;
+	color: white;
+}
+#gw1{
+	float: left;
+}
+.pull-left{
+	font-family: "微软雅黑";
+    color: #606060;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.pull-right{
+	font-family: "微软雅黑";
+    color: #606060;
+    padding-top:20px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	background-color: #E7E7E7;
+}
+.dropdown-menu{
+	text-align: center;
+}
+#rightBox1:hover{
+	background-color: #E31939;
+}
+#rightBox2:hover{
+	background-color:#E31939;
+}
+#rightBox3:hover{
+	background-color:#E31939;
+}
+#rightBox4:hover{
+	background-color:#E31939;
+}
+#rightBox5:hover{
+	background-color:#E31939;
+}
+#rightBox6:hover{
+	background-color: #E31939;
+}
+#rightBox7:hover{
+	background-color:#E31939;
+}
+#ku1{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #E31939;
+	padding-top: 15px;
+	text-align: center;
+}
+#ku2{
+	padding-top: 5px;
+	text-align: center;
+}
+#ku3{
+	text-align: center;
+	margin-top: 5px;
+	color: white;	
+}
+

@@ -1,0 +1,36 @@
+body{
+	background-image: url(../img/动漫.jpg);
+	background-repeat: no-repeat;
+}
+#dl{
+	text-align: center;
+	padding-top: 150px;
+    
+}
+#login1{
+	font-family: "微软雅黑";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    animation:login1 8s linear  infinite;
+}
+/*.lg1{
+	text-align: center;
+	padding-top: 80px;
+	margin-top: 70px;
+	margin-left: 60px;
+}*/
+@keyframes login1{
+	12.5%{color: black;}
+	25%{color: red;}
+	37.5%{color: orange;}
+	50%{color: yellow;}
+	62.5%{color: green;}
+	75%{color: cyan;}
+	87.5%{color:blue;}
+	100%{color: purple;}
+}
+.btn-default{
+	width: 80px;
+}

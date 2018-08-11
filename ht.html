@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>管理员后台</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/ht.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="#"><span  class="glyphicon glyphicon-apple" ></span>宸逸</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      	<li><a href="#"><div id="open"><span  class="glyphicon glyphicon-menu-hamburger" ></span>
+            	 	</div></a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+      	<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" ></span> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          	<li><a href="#"><span class="glyphicon glyphicon-user" ></span>&nbsp;账号</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-off" ></span>&nbsp;退出登录</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-pencil" ></span>&nbsp;修改密码</a></li>
+            
+          </ul>
+        </li>
+        
+        <li><a href="#"><span class="glyphicon glyphicon-search" ></span>&nbsp;搜索</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-link" ></span>&nbsp;帮助与文档</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-fire" ></span> 换肤<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          	<li><a href="#"><span class="glyphicon glyphicon-fire t1" ></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-fire t2" ></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-fire t3" ></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-fire t4" ></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-fire t5" ></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-fire t6" ></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-fire t7" ></span></a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-home" ></span></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+		<div id="one" class="col-sm-4 col-md-3 col-lg-2  one">
+		    <div id="menu">系统菜单</div><br />
+            
+		    <div class="btn-group-vertical">
+		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			       <span class="glyphicon glyphicon-list" ></span>&nbsp;&nbsp;商品
+			    <span class="caret"></span>
+		        </button>
+		        <ul class="dropdown-menu">
+			        <li><a href="goodsmanagement.html" target="iframe">商品管理</a></li>
+			        <li><a href="#">发布商品</a></li>
+			        <li><a href="#">分类管理</a></li>
+			        <li><a href="#">热销商品</a></li>
+			        <li><a href="#">库存预警</a></li>
+		        </ul>
+		    </div> <br /> 
+		    <div class="btn-group-vertical">
+		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			       <span class="glyphicon glyphicon-th-large" ></span>&nbsp;&nbsp;订单
+			    <span class="caret"></span>
+		        </button>
+		        <ul class="dropdown-menu">
+			        <li><a href="#">订单管理</a></li>
+		
+			        <li><a href="#">发货信息管理</a></li>
+			        <li><a href="#">退货/退款订单</a></li>
+		        </ul>
+		    </div> <br /> 
+		    <div class="btn-group-vertical">
+		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			       <span class="glyphicon glyphicon-equalizer" ></span>&nbsp;&nbsp;运营
+			    <span class="caret"></span>
+		        </button>
+		        <ul class="dropdown-menu">
+			        <li><a href="#">管理员</a></li>
+			        <li><a href="#">角色管理</a></li>
+			        <li><a href="#">广告管理</a></li>
+		        </ul>
+		    </div> <br /> 
+		    <div class="btn-group-vertical">
+		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			       <span class="glyphicon glyphicon-user" ></span>&nbsp;&nbsp;用户
+			    <span class="caret"></span>
+		        </button>
+		        <ul class="dropdown-menu">
+			        <li><a href="yh.html" target="iframe">会员管理</a></li>
+			        <li><a href="#">数据字典</a></li>
+		        </ul>
+		    </div> <br /> 
+		    
+		    <!--<div class="btn-group-vertical">    
+		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			        <span class="glyphicon glyphicon-globe" ></span>&nbsp;&nbsp;界面
+			    <span class="caret"></span>
+		        </button>
+		        <ul class="dropdown-menu">
+			        <li><a href="#">模版管理</a></li>
+			        <li><a href="#">资源管理</a></li>
+		        </ul>
+		    </div> <br /> -->
+		    <div class="btn-group-vertical">    
+		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			        <span class="glyphicon glyphicon-cog" ></span>&nbsp;&nbsp;设置
+			    <span class="caret"></span>
+		        </button>
+		        <ul class="dropdown-menu">
+			        <li><a href="#">全局设置</a></li>
+			        <li><a href="#">基本设置</a></li>
+			        <li><a href="#">物流公司</a></li>
+		        </ul>
+		    </div> <br /> 
+		</div>   
+		<div class="col-sm-8 col-md-9 col-lg-10 two ">
+			<iframe name="iframe" src="welcome.html" width="100%" height="100%" frameborder="0" ></iframe>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script>
+			var open=document.querySelector("#open")
+			var flag=true;
+			open.onclick=function(){
+				var open=document.querySelector("#one");
+				if(flag){
+					open.style.display="none";
+					flag=false;
+				}else{
+					open.style.display="block";
+					flag=true;
+				}
+				
+			}
+		</script>
+	</body>
+</html>

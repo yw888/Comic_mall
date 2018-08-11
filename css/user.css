@@ -1,0 +1,29 @@
+.one{
+	height: 100px;
+	/*background-color: blue;*/
+	border-bottom: 1px solid gainsboro;
+	line-height: 100px;
+}
+.two{
+	height: 300px
+	border-bottom: 1px solid gainsboro;
+	/*background-color: red;*/
+}
+#people{
+	background-color: : grey;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 50px;
+}
+.glyphicon glyphicon-user{
+	color: white;
+	
+}
+.three{
+	font-size: 20px;
+	padding-top: 23px;
+	
+}
+#ziliao{
+	font-size: 20px;
+}

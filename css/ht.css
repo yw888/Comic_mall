@@ -1,0 +1,89 @@
+.navbar-default{
+	background-color: #96B97D;
+}
+.t1{
+	color: red;
+}
+.t2{
+	color: orange;
+}
+.t3{
+	color: yellow;
+}
+.t4{
+	color: green;
+}
+.t5{
+	color: cyan;
+}
+.t6{color: blue;
+}
+.t7{
+	color: purple;
+}
+.dropdown-menu{
+	
+	text-align: center;
+}
+.navbar-brand{
+	color: forestgreen;
+	font-size:25px ;
+}
+.one{
+	height: 580px;
+	background-color:#e6e6e6;
+}
+.btn{
+	line-height: 8vh;
+	width: 100%;
+}
+.btn-default{
+	border: 0px;
+	
+}
+.dropdown-toggle{
+	border: 0px;
+	
+}
+.btn-group-vertical > .btn:first-child:not(:last-child){
+	border-radius: 0px;
+	
+}
+.two{
+	/*background-color: blueviolet;*/
+	height: 580px;
+}
+#one{
+	text-align: center;
+}
+#menu{
+	margin-top: 20px;
+	font-size: 20px;
+	color: #96B97D;
+}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{
+	background-color:#e6e6e6;
+}
+.btn-default{
+	background-color:#e6e6e6e;
+}
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus
+{
+	background-color:#e6e6e6;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+outline: none;
+border-color:transparent;
+box-shadow:none;
+}
+.btn{
+	background-color:#e6e6e6;
+}
+.glyphicon-apple{
+	color:red;
+}

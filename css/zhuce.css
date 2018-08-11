@@ -1,0 +1,35 @@
+body{
+	background-image:url(../img/动漫.jpg) ;
+	background-repeat: no-repeat;
+}
+#menu11{
+	font-family: "微软雅黑";
+	font-size: 30px;
+	text-align: center;
+	animation:menu11 8s linear  infinite;
+}
+.menu1{
+	height: 500px;
+	/*background-color: red;*/
+	margin-top: 100px;
+	
+}
+#zc{
+	font-family: "微软雅黑";
+}
+.btn-default{
+	background-color:#E4393C;
+}
+@keyframes menu11{
+	12.5%{color: black;}
+	25%{color: red;}
+	37.5%{color: orange;}
+	50%{color: yellow;}
+	62.5%{color: green;}
+	75%{color: cyan;}
+	87.5%{color:blue;}
+	100%{color: purple;}
+}
+span{
+	color: #E4393C;
+}
